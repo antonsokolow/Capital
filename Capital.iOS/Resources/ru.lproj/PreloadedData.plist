@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Categories</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Продукты и хозрасходы</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>1</integer>
+			<key>icon</key>
+			<string>milk</string>
+			<key>comment</key>
+			<string>Продукты, товары для дома</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Коммунальные платежи</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>2</integer>
+			<key>icon</key>
+			<string>house</string>
+			<key>comment</key>
+			<string>Аренда, коммунальные услуги, телефон, интернет</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Дети</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>3</integer>
+			<key>icon</key>
+			<string>children</string>
+			<key>comment</key>
+			<string>Затраты на обучение детей, детский сад, школа</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Одежда и обувь</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>4</integer>
+			<key>icon</key>
+			<string>fashion</string>
+			<key>comment</key>
+			<string>Одежда, обувь, аксессуары</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Медицинские расходы</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>5</integer>
+			<key>icon</key>
+			<string>stethoscope</string>
+			<key>comment</key>
+			<string>Лекарства, визиты к врачу</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Автомобиль</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>6</integer>
+			<key>icon</key>
+			<string>car</string>
+			<key>comment</key>
+			<string>Топливо, ремонты, страховка, автотовары</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Крупные покупки</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>7</integer>
+			<key>icon</key>
+			<string>monitor</string>
+			<key>comment</key>
+			<string>Бытовая техника, гаджеты, мебель</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Подарки</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>8</integer>
+			<key>icon</key>
+			<string>gamepad</string>
+			<key>comment</key>
+			<string>Праздники, дни рождения, прочие социальные обязательства</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Красота и здоровье</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>9</integer>
+			<key>icon</key>
+			<string>salon</string>
+			<key>comment</key>
+			<string>Салоны красоты, фитнес, одежда для спорта</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Развлечения и отдых</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>10</integer>
+			<key>icon</key>
+			<string>idea</string>
+			<key>comment</key>
+			<string>Кино, рестораны, парки развлечений и любые другие затраты выходного дня</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Обучение</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>11</integer>
+			<key>icon</key>
+			<string>training</string>
+			<key>comment</key>
+			<string>Повышение квалификации, курсы, затраты на самообразование</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Путешествия и отпуск</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>12</integer>
+			<key>icon</key>
+			<string>image</string>
+			<key>comment</key>
+			<string>Туры, поездки, курорты</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Инвестиции</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>13</integer>
+			<key>icon</key>
+			<string>currency</string>
+			<key>comment</key>
+			<string>Покупка активов</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Возврат долгов</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>14</integer>
+			<key>icon</key>
+			<string>payment</string>
+			<key>comment</key>
+			<string>Выплаты по кредитам, ипотеке, долгам</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Прочее</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>15</integer>
+			<key>icon</key>
+			<string>bill</string>
+			<key>comment</key>
+			<string>Любые разовые расходы</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Зарплата</string>
+			<key>type</key>
+			<string>income</string>
+			<key>order</key>
+			<integer>1</integer>
+			<key>icon</key>
+			<string>envelope</string>
+			<key>comment</key>
+			<string>Доход от основного места работы</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Шабашки</string>
+			<key>type</key>
+			<string>income</string>
+			<key>order</key>
+			<integer>2</integer>
+			<key>icon</key>
+			<string>currency</string>
+			<key>comment</key>
+			<string>Подработки</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Инвестиции</string>
+			<key>type</key>
+			<string>income</string>
+			<key>order</key>
+			<integer>3</integer>
+			<key>icon</key>
+			<string>hand</string>
+			<key>comment</key>
+			<string>Дивиденды и продажи активов</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Кредит</string>
+			<key>type</key>
+			<string>income</string>
+			<key>order</key>
+			<integer>4</integer>
+			<key>icon</key>
+			<string>hand</string>
+			<key>comment</key>
+			<string>Взятые взаймы деньги</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Другие</string>
+			<key>type</key>
+			<string>income</string>
+			<key>order</key>
+			<integer>5</integer>
+			<key>icon</key>
+			<string>credit</string>
+			<key>comment</key>
+			<string>Любые доходы</string>
+		</dict>
+	</array>
+</dict>
+</plist>

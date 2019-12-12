@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Categories</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Products and households expenses</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>1</integer>
+			<key>icon</key>
+			<string>milk</string>
+			<key>comment</key>
+			<string>Products, household goods</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Utility payments</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>2</integer>
+			<key>icon</key>
+			<string>house</string>
+			<key>comment</key>
+			<string>Rent, utilities, telephone, Internet</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Children</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>3</integer>
+			<key>icon</key>
+			<string>children</string>
+			<key>comment</key>
+			<string>Costs for education of children, kindergarten, school</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Clothes and shoes</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>4</integer>
+			<key>icon</key>
+			<string>fashion</string>
+			<key>comment</key>
+			<string>Clothes, shoes, accessories</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Medical expenses</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>5</integer>
+			<key>icon</key>
+			<string>stethoscope</string>
+			<key>comment</key>
+			<string>Medications, visits to the doctor</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Car</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>6</integer>
+			<key>icon</key>
+			<string>car</string>
+			<key>comment</key>
+			<string>Fuel, repairs, insurance, automotive products</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Major purchase</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>7</integer>
+			<key>icon</key>
+			<string>monitor</string>
+			<key>comment</key>
+			<string>Household appliances, gadgets, furniture</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Gifts</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>8</integer>
+			<key>icon</key>
+			<string>gamepad</string>
+			<key>comment</key>
+			<string>Holidays, birthdays, other social obligations</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Beauty and health</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>9</integer>
+			<key>icon</key>
+			<string>salon</string>
+			<key>comment</key>
+			<string>Beauty salons, fitness, sportswear</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Entertainment and recreation</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>10</integer>
+			<key>icon</key>
+			<string>idea</string>
+			<key>comment</key>
+			<string>Movies, restaurants, amusement parks and any other weekend expenses</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Training</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>11</integer>
+			<key>icon</key>
+			<string>training</string>
+			<key>comment</key>
+			<string>Professional development, courses, self-education costs</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Travel and holidays</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>12</integer>
+			<key>icon</key>
+			<string>image</string>
+			<key>comment</key>
+			<string>Tours, trips, resorts</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Investment</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>13</integer>
+			<key>icon</key>
+			<string>currency</string>
+			<key>comment</key>
+			<string>Asset purchase</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Debt recovery</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>14</integer>
+			<key>icon</key>
+			<string>payment</string>
+			<key>comment</key>
+			<string>Payments on loans, mortgages, debts</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Other</string>
+			<key>type</key>
+			<string>expense</string>
+			<key>order</key>
+			<integer>15</integer>
+			<key>icon</key>
+			<string>bill</string>
+			<key>comment</key>
+			<string>Any one-time expenses</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Salary</string>
+			<key>type</key>
+			<string>income</string>
+			<key>order</key>
+			<integer>1</integer>
+			<key>icon</key>
+			<string>envelope</string>
+			<key>comment</key>
+			<string>Income from primary employment</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Coven</string>
+			<key>type</key>
+			<string>income</string>
+			<key>order</key>
+			<integer>2</integer>
+			<key>icon</key>
+			<string>currency</string>
+			<key>comment</key>
+			<string>Underworkings</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Investment</string>
+			<key>type</key>
+			<string>income</string>
+			<key>order</key>
+			<integer>3</integer>
+			<key>icon</key>
+			<string>hand</string>
+			<key>comment</key>
+			<string>Dividends and asset sales</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Loan</string>
+			<key>type</key>
+			<string>income</string>
+			<key>order</key>
+			<integer>4</integer>
+			<key>icon</key>
+			<string>hand</string>
+			<key>comment</key>
+			<string>Borrowed money</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Other</string>
+			<key>type</key>
+			<string>income</string>
+			<key>order</key>
+			<integer>5</integer>
+			<key>icon</key>
+			<string>credit</string>
+			<key>comment</key>
+			<string>Any income</string>
+		</dict>
+	</array>
+</dict>
+</plist>

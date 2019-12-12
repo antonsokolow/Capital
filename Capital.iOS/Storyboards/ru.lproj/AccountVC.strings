@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "Комментарий"; ObjectID = "5Um-Vv-niC"; */
+"5Um-Vv-niC.text" = "Комментарий";
+
+/* Class = "UILabel"; text = "23.10.2018"; ObjectID = "DeX-Ty-g82"; */
+"DeX-Ty-g82.text" = "23.10.2018";
+
+/* Class = "UIButton"; normalTitle = "Удалить"; ObjectID = "FaY-bc-cef"; */
+"FaY-bc-cef.normalTitle" = "Удалить";
+
+/* Class = "UILabel"; text = "Баланс"; ObjectID = "FoY-jR-9qz"; */
+"FoY-jR-9qz.text" = "Баланс";
+
+/* Class = "UILabel"; text = "Сумма"; ObjectID = "IKt-i6-dz4"; */
+"IKt-i6-dz4.text" = "Сумма";
+
+/* Class = "UILabel"; text = "Категория"; ObjectID = "Kd0-4w-y3q"; */
+"Kd0-4w-y3q.text" = "Категория";
+
+/* Class = "UITextField"; placeholder = "Название"; ObjectID = "M6N-y6-eM1"; */
+"M6N-y6-eM1.placeholder" = "Название";
+
+/* Class = "UILabel"; text = "Выберите счёт"; ObjectID = "Xz2-x5-axv"; */
+"Xz2-x5-axv.text" = "Выберите счёт";
+
+/* Class = "UITextField"; placeholder = "Название"; ObjectID = "dwQ-VL-F8S"; */
+"dwQ-VL-F8S.placeholder" = "Название";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fYE-Iw-saX"; */
+"fYE-Iw-saX.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "hQw-c5-5BG"; */
+"hQw-c5-5BG.text" = "Date";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "oEr-L5-GtZ"; */
+"oEr-L5-GtZ.text" = "Title";

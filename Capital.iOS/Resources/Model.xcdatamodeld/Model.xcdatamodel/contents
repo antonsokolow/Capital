@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14492.1" systemVersion="19A536g" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Account" representedClassName=".Account" syncable="YES" codeGenerationType="category">
+        <attribute name="currencyCode" optional="YES" attributeType="String" minValueString="3" maxValueString="3" syncable="YES"/>
+        <attribute name="goal" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="limit" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="type" attributeType="String" minValueString="1" maxValueString="20" defaultValueString="cash" syncable="YES"/>
+        <relationship name="transactions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Transaction" inverseName="account" inverseEntity="Transaction" syncable="YES"/>
+        <relationship name="transactionsIncome" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Transaction" inverseName="accountto" inverseEntity="Transaction" syncable="YES"/>
+    </entity>
+    <entity name="Budget" representedClassName=".Budget" syncable="YES" codeGenerationType="category">
+        <attribute name="amount" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="comment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="month" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="type" attributeType="String" minValueString="1" maxValueString="20" defaultValueString="expense" syncable="YES"/>
+        <attribute name="year" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="budgets" inverseEntity="Category" syncable="YES"/>
+    </entity>
+    <entity name="Category" representedClassName=".Category" syncable="YES" codeGenerationType="category">
+        <attribute name="amount" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="comment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="monthly" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="type" attributeType="String" minValueString="1" maxValueString="20" defaultValueString="expense" syncable="YES"/>
+        <relationship name="budgets" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Budget" inverseName="category" inverseEntity="Budget" syncable="YES"/>
+        <relationship name="transactions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Transaction" inverseName="category" inverseEntity="Transaction" syncable="YES"/>
+    </entity>
+    <entity name="CurrencyRate" representedClassName=".CurrencyRate" syncable="YES" codeGenerationType="category">
+        <attribute name="isFavorite" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="rate" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="symbol" attributeType="String" minValueString="3" maxValueString="3" syncable="YES"/>
+    </entity>
+    <entity name="Transaction" representedClassName=".Transaction" syncable="YES" codeGenerationType="category">
+        <attribute name="amount" optional="YES" attributeType="Decimal" syncable="YES"/>
+        <attribute name="amountto" optional="YES" attributeType="Decimal" syncable="YES"/>
+        <attribute name="comment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdon" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="type" attributeType="String" minValueString="1" maxValueString="20" syncable="YES"/>
+        <relationship name="account" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Account" inverseName="transactions" inverseEntity="Account" syncable="YES"/>
+        <relationship name="accountto" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Account" inverseName="transactionsIncome" inverseEntity="Account" syncable="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="transactions" inverseEntity="Category" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Account" positionX="-251.265625" positionY="-331.53125" width="128" height="165"/>
+        <element name="Budget" positionX="-108" positionY="-180" width="128" height="150"/>
+        <element name="Category" positionX="-246.796875" positionY="-143.015625" width="128" height="180"/>
+        <element name="CurrencyRate" positionX="-135" positionY="-180" width="128" height="90"/>
+        <element name="Transaction" positionX="-180" positionY="-216" width="128" height="165"/>
+    </elements>
+</model>

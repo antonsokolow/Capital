@@ -1,0 +1,30 @@
+
+/* Class = "UITabBarItem"; title = "Бюджет"; ObjectID = "8p7-6o-N0L"; */
+"8p7-6o-N0L.title" = "Бюджет";
+
+/* Class = "UILabel"; text = "12.11.2018"; ObjectID = "DRl-X9-FNf"; */
+"DRl-X9-FNf.text" = "12.11.2018";
+
+/* Class = "UILabel"; text = "Продукты и хозрасходы и еще"; ObjectID = "McR-s4-H8n"; */
+"McR-s4-H8n.text" = "Продукты и хозрасходы и еще";
+
+/* Class = "UILabel"; text = "10 000,00"; ObjectID = "P2q-ri-MCg"; */
+"P2q-ri-MCg.text" = "10 000,00";
+
+/* Class = "UITabBarItem"; title = "Счета"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "Счета";
+
+/* Class = "UILabel"; text = "1 200 000"; ObjectID = "ecY-Ck-eae"; */
+"ecY-Ck-eae.text" = "1 200 000";
+
+/* Class = "UILabel"; text = "Райффайзен банк"; ObjectID = "iH7-28-o39"; */
+"iH7-28-o39.text" = "Райффайзен банк";
+
+/* Class = "UIViewController"; title = "SelectTransactionTypeVC"; ObjectID = "nEp-mZ-MXR"; */
+"nEp-mZ-MXR.title" = "SelectTransactionTypeVC";
+
+/* Class = "UITextField"; text = "Небритябрь   2018"; ObjectID = "t8q-TI-Jvb"; */
+"t8q-TI-Jvb.text" = "Небритябрь   2018";
+
+/* Class = "UILabel"; text = "999,99"; ObjectID = "yEk-Sl-kvG"; */
+"yEk-Sl-kvG.text" = "999,99";

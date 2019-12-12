@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Capital.iOS
+
+  Created by Anton Sokolov on 20/12/2018.
+  Copyright © 2018 Anton Sokolov. All rights reserved.
+*/
+"Revenue" = "Revenue";
+"Expenses" = "Expenses";
+"Cash" = "Cash";
+"Assets" = "Assets";
+"Credits" = "Credit cards";
+"Debts" = "Debts";

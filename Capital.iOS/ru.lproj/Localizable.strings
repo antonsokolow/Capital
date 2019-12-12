@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  Capital.iOS
+
+  Created by Anton Sokolov on 20/12/2018.
+  Copyright © 2018 Anton Sokolov. All rights reserved.
+*/
+"Revenue" = "Доходы";
+"Expenses" = "Расходы";
+"Cash" = "Наличные и карты";
+"Assets" = "Активы";
+"Credits" = "Кредитные карты";
+"Debts" = "Обязательства";
+"Accounts" = "Счета";
+"Help" = "Помощь";
+"Transactions" = "Транзакции";
+"Favorites" = "Избранное";
+"ALL_CURRENCY" = "Все валюты";
+

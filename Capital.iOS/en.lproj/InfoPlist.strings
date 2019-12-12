@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Capital.iOS
+
+  Created by Anton Sokolov on 24/12/2018.
+  Copyright © 2018 Anton Sokolov. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "Kapital";
+"NSHumanReadableCopyright" = "2018 Deasoft. All rights reserved.";
